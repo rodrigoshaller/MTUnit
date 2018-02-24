@@ -1,0 +1,203 @@
+\hypertarget{_m_t_unit_8mqh}{}\section{C\+:/\+Program Files/\+Meta\+Trader 5/\+M\+Q\+L5/\+Experts/\+My\+Unit\+Test\+E\+A/\+Include/\+M\+T\+Unit.mqh File Reference}
+\label{_m_t_unit_8mqh}\index{C\+:/\+Program Files/\+Meta\+Trader 5/\+M\+Q\+L5/\+Experts/\+My\+Unit\+Test\+E\+A/\+Include/\+M\+T\+Unit.\+mqh@{C\+:/\+Program Files/\+Meta\+Trader 5/\+M\+Q\+L5/\+Experts/\+My\+Unit\+Test\+E\+A/\+Include/\+M\+T\+Unit.\+mqh}}
+
+
+File containing a Unit Test library developed for M\+Q\+L5 This file was based on this article\+: \href{https://www.mql5.com/ru/articles/1579}{\tt https\+://www.\+mql5.\+com/ru/articles/1579}.  
+
+
+{\ttfamily \#include \char`\"{}M\+T\+Unit\+Cfg.\+mqh\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}M\+T\+Unit\+All\+Tests.\+mqh\char`\"{}}\newline
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_m_t_unit}{M\+T\+Unit}}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_m_t_unit_8mqh_abec0187655f13dec59b96cde105e5bc1}{U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+T\+E\+S\+T\+C\+A\+SE}}~\char`\"{}  \char`\"{}
+\item 
+\#define \mbox{\hyperlink{_m_t_unit_8mqh_a41d9aa881079f30c8488682ba6a90014}{U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+A\+S\+S\+E\+RT}}~\char`\"{}\mbox{[}T\+E\+ST\mbox{]} \char`\"{}
+\item 
+\#define \mbox{\hyperlink{_m_t_unit_8mqh_a4631b5eea3d8e74cd319ef46940fb539}{U\+T\+\_\+\+S\+EP}}~\char`\"{} -\/ \char`\"{}
+\item 
+\#define \mbox{\hyperlink{_m_t_unit_8mqh_a6369f0c6469a39ec1afa8834e8a96733}{U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+E\+X\+P\+\_\+\+A\+CT}}~\char`\"{}\%s\+: expected is $<$\%s$>$ but $<$\%s$>$\char`\"{}
+\item 
+\#define \mbox{\hyperlink{_m_t_unit_8mqh_afdcc024902d14669b7a22158e646299b}{U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+A\+R\+R\+\_\+\+E\+X\+P\+\_\+\+A\+CT}}~\char`\"{}\%s\+: expected array\mbox{[}\%d\mbox{]} is $<$\%s$>$ but $<$\%s$>$\char`\"{}
+\item 
+\#define \mbox{\hyperlink{_m_t_unit_8mqh_a96f5d62188d09039ebc3f443c9120e39}{U\+T\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+A\+S\+S\+E\+R\+T\+\_\+\+M\+E\+S\+S\+A\+GE}}~\char`\"{}Assert should succeed\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_m_t_unit_8mqh_a9cdc57544d91884fab6f627b3394326f}{U\+T\+\_\+\+On\+Init}} ()
+\begin{DoxyCompactList}\small\item\em On\+Init method of the \mbox{\hyperlink{class_m_t_unit}{M\+T\+Unit}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_m_t_unit_8mqh_a9fbaaa20ba4e1624e348f7ab5109ecbf}{U\+T\+\_\+\+On\+Deinit}} ()
+\item 
+void \mbox{\hyperlink{_m_t_unit_8mqh_afcdc18c227067029c1bb10f935bdb21c}{U\+T\+\_\+\+On\+Tick}} ()
+\item 
+string \mbox{\hyperlink{_m_t_unit_8mqh_a560d9b8bdbe896abd079b6c9d7bd107f}{get\+O\+K\+Fail}} (bool ok)
+\item 
+string \mbox{\hyperlink{_m_t_unit_8mqh_a846b4d0b246628bc40f57371459bdf2f}{bool\+To\+String}} (bool b)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_m_t_unit}{M\+T\+Unit}} $\ast$ \mbox{\hyperlink{_m_t_unit_8mqh_a26846c3d9a3b28dcdfd39654d4527685}{g\+\_\+mt\+Unit}}
+\item 
+\mbox{\hyperlink{class_m_t_unit_all_tests}{M\+T\+Unit\+All\+Tests}} $\ast$ \mbox{\hyperlink{_m_t_unit_8mqh_af8a46b5767cc8d41db82ddc69eb9f46e}{g\+\_\+mt\+Unit\+All\+Tests}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+File containing a Unit Test library developed for M\+Q\+L5 This file was based on this article\+: \href{https://www.mql5.com/ru/articles/1579}{\tt https\+://www.\+mql5.\+com/ru/articles/1579}. 
+
+\begin{DoxyAuthor}{Author}
+Rodrigo Haller 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+09/02/2018 
+\end{DoxyDate}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_m_t_unit_8mqh_afdcc024902d14669b7a22158e646299b}\label{_m_t_unit_8mqh_afdcc024902d14669b7a22158e646299b}} 
+\index{M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}!U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+A\+R\+R\+\_\+\+E\+X\+P\+\_\+\+A\+CT@{U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+A\+R\+R\+\_\+\+E\+X\+P\+\_\+\+A\+CT}}
+\index{U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+A\+R\+R\+\_\+\+E\+X\+P\+\_\+\+A\+CT@{U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+A\+R\+R\+\_\+\+E\+X\+P\+\_\+\+A\+CT}!M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}}
+\subsubsection{\texorpdfstring{U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+A\+R\+R\+\_\+\+E\+X\+P\+\_\+\+A\+CT}{UT\_COMP\_ARR\_EXP\_ACT}}
+{\footnotesize\ttfamily \#define U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+A\+R\+R\+\_\+\+E\+X\+P\+\_\+\+A\+CT~\char`\"{}\%s\+: expected array\mbox{[}\%d\mbox{]} is $<$\%s$>$ but $<$\%s$>$\char`\"{}}
+
+
+
+Definition at line 70 of file M\+T\+Unit.\+mqh.
+
+\mbox{\Hypertarget{_m_t_unit_8mqh_a6369f0c6469a39ec1afa8834e8a96733}\label{_m_t_unit_8mqh_a6369f0c6469a39ec1afa8834e8a96733}} 
+\index{M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}!U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+E\+X\+P\+\_\+\+A\+CT@{U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+E\+X\+P\+\_\+\+A\+CT}}
+\index{U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+E\+X\+P\+\_\+\+A\+CT@{U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+E\+X\+P\+\_\+\+A\+CT}!M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}}
+\subsubsection{\texorpdfstring{U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+E\+X\+P\+\_\+\+A\+CT}{UT\_COMP\_EXP\_ACT}}
+{\footnotesize\ttfamily \#define U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+E\+X\+P\+\_\+\+A\+CT~\char`\"{}\%s\+: expected is $<$\%s$>$ but $<$\%s$>$\char`\"{}}
+
+
+
+Definition at line 69 of file M\+T\+Unit.\+mqh.
+
+\mbox{\Hypertarget{_m_t_unit_8mqh_a96f5d62188d09039ebc3f443c9120e39}\label{_m_t_unit_8mqh_a96f5d62188d09039ebc3f443c9120e39}} 
+\index{M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}!U\+T\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+A\+S\+S\+E\+R\+T\+\_\+\+M\+E\+S\+S\+A\+GE@{U\+T\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+A\+S\+S\+E\+R\+T\+\_\+\+M\+E\+S\+S\+A\+GE}}
+\index{U\+T\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+A\+S\+S\+E\+R\+T\+\_\+\+M\+E\+S\+S\+A\+GE@{U\+T\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+A\+S\+S\+E\+R\+T\+\_\+\+M\+E\+S\+S\+A\+GE}!M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}}
+\subsubsection{\texorpdfstring{U\+T\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+A\+S\+S\+E\+R\+T\+\_\+\+M\+E\+S\+S\+A\+GE}{UT\_DEFAULT\_ASSERT\_MESSAGE}}
+{\footnotesize\ttfamily \#define U\+T\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+A\+S\+S\+E\+R\+T\+\_\+\+M\+E\+S\+S\+A\+GE~\char`\"{}Assert should succeed\char`\"{}}
+
+
+
+Definition at line 71 of file M\+T\+Unit.\+mqh.
+
+\mbox{\Hypertarget{_m_t_unit_8mqh_a4631b5eea3d8e74cd319ef46940fb539}\label{_m_t_unit_8mqh_a4631b5eea3d8e74cd319ef46940fb539}} 
+\index{M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}!U\+T\+\_\+\+S\+EP@{U\+T\+\_\+\+S\+EP}}
+\index{U\+T\+\_\+\+S\+EP@{U\+T\+\_\+\+S\+EP}!M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}}
+\subsubsection{\texorpdfstring{U\+T\+\_\+\+S\+EP}{UT\_SEP}}
+{\footnotesize\ttfamily \#define U\+T\+\_\+\+S\+EP~\char`\"{} -\/ \char`\"{}}
+
+
+
+Definition at line 68 of file M\+T\+Unit.\+mqh.
+
+\mbox{\Hypertarget{_m_t_unit_8mqh_a41d9aa881079f30c8488682ba6a90014}\label{_m_t_unit_8mqh_a41d9aa881079f30c8488682ba6a90014}} 
+\index{M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}!U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+A\+S\+S\+E\+RT@{U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+A\+S\+S\+E\+RT}}
+\index{U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+A\+S\+S\+E\+RT@{U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+A\+S\+S\+E\+RT}!M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}}
+\subsubsection{\texorpdfstring{U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+A\+S\+S\+E\+RT}{UT\_SPACE\_ASSERT}}
+{\footnotesize\ttfamily \#define U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+A\+S\+S\+E\+RT~\char`\"{}\mbox{[}T\+E\+ST\mbox{]} \char`\"{}}
+
+
+
+Definition at line 67 of file M\+T\+Unit.\+mqh.
+
+\mbox{\Hypertarget{_m_t_unit_8mqh_abec0187655f13dec59b96cde105e5bc1}\label{_m_t_unit_8mqh_abec0187655f13dec59b96cde105e5bc1}} 
+\index{M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}!U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+T\+E\+S\+T\+C\+A\+SE@{U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+T\+E\+S\+T\+C\+A\+SE}}
+\index{U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+T\+E\+S\+T\+C\+A\+SE@{U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+T\+E\+S\+T\+C\+A\+SE}!M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}}
+\subsubsection{\texorpdfstring{U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+T\+E\+S\+T\+C\+A\+SE}{UT\_SPACE\_TESTCASE}}
+{\footnotesize\ttfamily \#define U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+T\+E\+S\+T\+C\+A\+SE~\char`\"{}  \char`\"{}}
+
+
+
+Definition at line 66 of file M\+T\+Unit.\+mqh.
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_m_t_unit_8mqh_a846b4d0b246628bc40f57371459bdf2f}\label{_m_t_unit_8mqh_a846b4d0b246628bc40f57371459bdf2f}} 
+\index{M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}!bool\+To\+String@{bool\+To\+String}}
+\index{bool\+To\+String@{bool\+To\+String}!M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}}
+\subsubsection{\texorpdfstring{bool\+To\+String()}{boolToString()}}
+{\footnotesize\ttfamily string bool\+To\+String (\begin{DoxyParamCaption}\item[{bool}]{b }\end{DoxyParamCaption})}
+
+
+
+Definition at line 830 of file M\+T\+Unit.\+mqh.
+
+\mbox{\Hypertarget{_m_t_unit_8mqh_a560d9b8bdbe896abd079b6c9d7bd107f}\label{_m_t_unit_8mqh_a560d9b8bdbe896abd079b6c9d7bd107f}} 
+\index{M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}!get\+O\+K\+Fail@{get\+O\+K\+Fail}}
+\index{get\+O\+K\+Fail@{get\+O\+K\+Fail}!M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}}
+\subsubsection{\texorpdfstring{get\+O\+K\+Fail()}{getOKFail()}}
+{\footnotesize\ttfamily string get\+O\+K\+Fail (\begin{DoxyParamCaption}\item[{bool}]{ok }\end{DoxyParamCaption})}
+
+
+
+Definition at line 294 of file M\+T\+Unit.\+mqh.
+
+\mbox{\Hypertarget{_m_t_unit_8mqh_a9fbaaa20ba4e1624e348f7ab5109ecbf}\label{_m_t_unit_8mqh_a9fbaaa20ba4e1624e348f7ab5109ecbf}} 
+\index{M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}!U\+T\+\_\+\+On\+Deinit@{U\+T\+\_\+\+On\+Deinit}}
+\index{U\+T\+\_\+\+On\+Deinit@{U\+T\+\_\+\+On\+Deinit}!M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}}
+\subsubsection{\texorpdfstring{U\+T\+\_\+\+On\+Deinit()}{UT\_OnDeinit()}}
+{\footnotesize\ttfamily void U\+T\+\_\+\+On\+Deinit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 53 of file M\+T\+Unit.\+mqh.
+
+\mbox{\Hypertarget{_m_t_unit_8mqh_a9cdc57544d91884fab6f627b3394326f}\label{_m_t_unit_8mqh_a9cdc57544d91884fab6f627b3394326f}} 
+\index{M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}!U\+T\+\_\+\+On\+Init@{U\+T\+\_\+\+On\+Init}}
+\index{U\+T\+\_\+\+On\+Init@{U\+T\+\_\+\+On\+Init}!M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}}
+\subsubsection{\texorpdfstring{U\+T\+\_\+\+On\+Init()}{UT\_OnInit()}}
+{\footnotesize\ttfamily void U\+T\+\_\+\+On\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+On\+Init method of the \mbox{\hyperlink{class_m_t_unit}{M\+T\+Unit}}. 
+
+This method should be called by the EA\textquotesingle{}s On\+Init method 
+
+Definition at line 27 of file M\+T\+Unit.\+mqh.
+
+\mbox{\Hypertarget{_m_t_unit_8mqh_afcdc18c227067029c1bb10f935bdb21c}\label{_m_t_unit_8mqh_afcdc18c227067029c1bb10f935bdb21c}} 
+\index{M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}!U\+T\+\_\+\+On\+Tick@{U\+T\+\_\+\+On\+Tick}}
+\index{U\+T\+\_\+\+On\+Tick@{U\+T\+\_\+\+On\+Tick}!M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}}
+\subsubsection{\texorpdfstring{U\+T\+\_\+\+On\+Tick()}{UT\_OnTick()}}
+{\footnotesize\ttfamily void U\+T\+\_\+\+On\+Tick (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 59 of file M\+T\+Unit.\+mqh.
+
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{_m_t_unit_8mqh_a26846c3d9a3b28dcdfd39654d4527685}\label{_m_t_unit_8mqh_a26846c3d9a3b28dcdfd39654d4527685}} 
+\index{M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}!g\+\_\+mt\+Unit@{g\+\_\+mt\+Unit}}
+\index{g\+\_\+mt\+Unit@{g\+\_\+mt\+Unit}!M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}}
+\subsubsection{\texorpdfstring{g\+\_\+mt\+Unit}{g\_mtUnit}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_m_t_unit}{M\+T\+Unit}}$\ast$ g\+\_\+mt\+Unit}
+
+
+
+Definition at line 18 of file M\+T\+Unit.\+mqh.
+
+\mbox{\Hypertarget{_m_t_unit_8mqh_af8a46b5767cc8d41db82ddc69eb9f46e}\label{_m_t_unit_8mqh_af8a46b5767cc8d41db82ddc69eb9f46e}} 
+\index{M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}!g\+\_\+mt\+Unit\+All\+Tests@{g\+\_\+mt\+Unit\+All\+Tests}}
+\index{g\+\_\+mt\+Unit\+All\+Tests@{g\+\_\+mt\+Unit\+All\+Tests}!M\+T\+Unit.\+mqh@{M\+T\+Unit.\+mqh}}
+\subsubsection{\texorpdfstring{g\+\_\+mt\+Unit\+All\+Tests}{g\_mtUnitAllTests}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_m_t_unit_all_tests}{M\+T\+Unit\+All\+Tests}}$\ast$ g\+\_\+mt\+Unit\+All\+Tests}
+
+
+
+Definition at line 21 of file M\+T\+Unit.\+mqh.
+

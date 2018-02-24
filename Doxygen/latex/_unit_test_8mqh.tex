@@ -1,0 +1,199 @@
+\hypertarget{_unit_test_8mqh}{}\section{Include/\+Unit\+Test.mqh File Reference}
+\label{_unit_test_8mqh}\index{Include/\+Unit\+Test.\+mqh@{Include/\+Unit\+Test.\+mqh}}
+
+
+File containing a Unit Test library developed for M\+Q\+L5 This file was based on this article\+: www.\+mql5.\+com/ru/articles/1579.  
+
+
+{\ttfamily \#include \char`\"{}Unit\+Test\+Cfg.\+mqh\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Unit\+Test\+All\+Tests.\+mqh\char`\"{}}\newline
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_unit_test}{Unit\+Test}}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_unit_test_8mqh_abec0187655f13dec59b96cde105e5bc1}{U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+T\+E\+S\+T\+C\+A\+SE}}~\char`\"{}  \char`\"{}
+\item 
+\#define \mbox{\hyperlink{_unit_test_8mqh_a41d9aa881079f30c8488682ba6a90014}{U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+A\+S\+S\+E\+RT}}~\char`\"{}\mbox{[}T\+E\+ST\mbox{]} \char`\"{}
+\item 
+\#define \mbox{\hyperlink{_unit_test_8mqh_a4631b5eea3d8e74cd319ef46940fb539}{U\+T\+\_\+\+S\+EP}}~\char`\"{} -\/ \char`\"{}
+\item 
+\#define \mbox{\hyperlink{_unit_test_8mqh_a6369f0c6469a39ec1afa8834e8a96733}{U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+E\+X\+P\+\_\+\+A\+CT}}~\char`\"{}\%s\+: expected is $<$\%s$>$ but $<$\%s$>$\char`\"{}
+\item 
+\#define \mbox{\hyperlink{_unit_test_8mqh_afdcc024902d14669b7a22158e646299b}{U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+A\+R\+R\+\_\+\+E\+X\+P\+\_\+\+A\+CT}}~\char`\"{}\%s\+: expected array\mbox{[}\%d\mbox{]} is $<$\%s$>$ but $<$\%s$>$\char`\"{}
+\item 
+\#define \mbox{\hyperlink{_unit_test_8mqh_a96f5d62188d09039ebc3f443c9120e39}{U\+T\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+A\+S\+S\+E\+R\+T\+\_\+\+M\+E\+S\+S\+A\+GE}}~\char`\"{}Assert should succeed\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_unit_test_8mqh_a9cdc57544d91884fab6f627b3394326f}{U\+T\+\_\+\+On\+Init}} ()
+\item 
+void \mbox{\hyperlink{_unit_test_8mqh_a9fbaaa20ba4e1624e348f7ab5109ecbf}{U\+T\+\_\+\+On\+Deinit}} ()
+\item 
+void \mbox{\hyperlink{_unit_test_8mqh_afcdc18c227067029c1bb10f935bdb21c}{U\+T\+\_\+\+On\+Tick}} ()
+\item 
+string \mbox{\hyperlink{_unit_test_8mqh_a560d9b8bdbe896abd079b6c9d7bd107f}{get\+O\+K\+Fail}} (bool ok)
+\item 
+string \mbox{\hyperlink{_unit_test_8mqh_a846b4d0b246628bc40f57371459bdf2f}{bool\+To\+String}} (bool b)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_unit_test}{Unit\+Test}} $\ast$ \mbox{\hyperlink{_unit_test_8mqh_a5e34117a894ec401dfa22c9ac4dd2bab}{g\+\_\+unit\+Test}}
+\item 
+\mbox{\hyperlink{class_unit_test_all_tests}{Unit\+Test\+All\+Tests}} $\ast$ \mbox{\hyperlink{_unit_test_8mqh_ac4c2170c0847569eb60570a7d2376a50}{g\+\_\+unit\+Test\+All\+Tests}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+File containing a Unit Test library developed for M\+Q\+L5 This file was based on this article\+: www.\+mql5.\+com/ru/articles/1579. 
+
+\begin{DoxyAuthor}{Author}
+Rodrigo Haller 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+09/02/2018 
+\end{DoxyDate}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_unit_test_8mqh_afdcc024902d14669b7a22158e646299b}\label{_unit_test_8mqh_afdcc024902d14669b7a22158e646299b}} 
+\index{Unit\+Test.\+mqh@{Unit\+Test.\+mqh}!U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+A\+R\+R\+\_\+\+E\+X\+P\+\_\+\+A\+CT@{U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+A\+R\+R\+\_\+\+E\+X\+P\+\_\+\+A\+CT}}
+\index{U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+A\+R\+R\+\_\+\+E\+X\+P\+\_\+\+A\+CT@{U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+A\+R\+R\+\_\+\+E\+X\+P\+\_\+\+A\+CT}!Unit\+Test.\+mqh@{Unit\+Test.\+mqh}}
+\subsubsection{\texorpdfstring{U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+A\+R\+R\+\_\+\+E\+X\+P\+\_\+\+A\+CT}{UT\_COMP\_ARR\_EXP\_ACT}}
+{\footnotesize\ttfamily \#define U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+A\+R\+R\+\_\+\+E\+X\+P\+\_\+\+A\+CT~\char`\"{}\%s\+: expected array\mbox{[}\%d\mbox{]} is $<$\%s$>$ but $<$\%s$>$\char`\"{}}
+
+
+
+Definition at line 66 of file Unit\+Test.\+mqh.
+
+\mbox{\Hypertarget{_unit_test_8mqh_a6369f0c6469a39ec1afa8834e8a96733}\label{_unit_test_8mqh_a6369f0c6469a39ec1afa8834e8a96733}} 
+\index{Unit\+Test.\+mqh@{Unit\+Test.\+mqh}!U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+E\+X\+P\+\_\+\+A\+CT@{U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+E\+X\+P\+\_\+\+A\+CT}}
+\index{U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+E\+X\+P\+\_\+\+A\+CT@{U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+E\+X\+P\+\_\+\+A\+CT}!Unit\+Test.\+mqh@{Unit\+Test.\+mqh}}
+\subsubsection{\texorpdfstring{U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+E\+X\+P\+\_\+\+A\+CT}{UT\_COMP\_EXP\_ACT}}
+{\footnotesize\ttfamily \#define U\+T\+\_\+\+C\+O\+M\+P\+\_\+\+E\+X\+P\+\_\+\+A\+CT~\char`\"{}\%s\+: expected is $<$\%s$>$ but $<$\%s$>$\char`\"{}}
+
+
+
+Definition at line 65 of file Unit\+Test.\+mqh.
+
+\mbox{\Hypertarget{_unit_test_8mqh_a96f5d62188d09039ebc3f443c9120e39}\label{_unit_test_8mqh_a96f5d62188d09039ebc3f443c9120e39}} 
+\index{Unit\+Test.\+mqh@{Unit\+Test.\+mqh}!U\+T\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+A\+S\+S\+E\+R\+T\+\_\+\+M\+E\+S\+S\+A\+GE@{U\+T\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+A\+S\+S\+E\+R\+T\+\_\+\+M\+E\+S\+S\+A\+GE}}
+\index{U\+T\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+A\+S\+S\+E\+R\+T\+\_\+\+M\+E\+S\+S\+A\+GE@{U\+T\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+A\+S\+S\+E\+R\+T\+\_\+\+M\+E\+S\+S\+A\+GE}!Unit\+Test.\+mqh@{Unit\+Test.\+mqh}}
+\subsubsection{\texorpdfstring{U\+T\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+A\+S\+S\+E\+R\+T\+\_\+\+M\+E\+S\+S\+A\+GE}{UT\_DEFAULT\_ASSERT\_MESSAGE}}
+{\footnotesize\ttfamily \#define U\+T\+\_\+\+D\+E\+F\+A\+U\+L\+T\+\_\+\+A\+S\+S\+E\+R\+T\+\_\+\+M\+E\+S\+S\+A\+GE~\char`\"{}Assert should succeed\char`\"{}}
+
+
+
+Definition at line 67 of file Unit\+Test.\+mqh.
+
+\mbox{\Hypertarget{_unit_test_8mqh_a4631b5eea3d8e74cd319ef46940fb539}\label{_unit_test_8mqh_a4631b5eea3d8e74cd319ef46940fb539}} 
+\index{Unit\+Test.\+mqh@{Unit\+Test.\+mqh}!U\+T\+\_\+\+S\+EP@{U\+T\+\_\+\+S\+EP}}
+\index{U\+T\+\_\+\+S\+EP@{U\+T\+\_\+\+S\+EP}!Unit\+Test.\+mqh@{Unit\+Test.\+mqh}}
+\subsubsection{\texorpdfstring{U\+T\+\_\+\+S\+EP}{UT\_SEP}}
+{\footnotesize\ttfamily \#define U\+T\+\_\+\+S\+EP~\char`\"{} -\/ \char`\"{}}
+
+
+
+Definition at line 64 of file Unit\+Test.\+mqh.
+
+\mbox{\Hypertarget{_unit_test_8mqh_a41d9aa881079f30c8488682ba6a90014}\label{_unit_test_8mqh_a41d9aa881079f30c8488682ba6a90014}} 
+\index{Unit\+Test.\+mqh@{Unit\+Test.\+mqh}!U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+A\+S\+S\+E\+RT@{U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+A\+S\+S\+E\+RT}}
+\index{U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+A\+S\+S\+E\+RT@{U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+A\+S\+S\+E\+RT}!Unit\+Test.\+mqh@{Unit\+Test.\+mqh}}
+\subsubsection{\texorpdfstring{U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+A\+S\+S\+E\+RT}{UT\_SPACE\_ASSERT}}
+{\footnotesize\ttfamily \#define U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+A\+S\+S\+E\+RT~\char`\"{}\mbox{[}T\+E\+ST\mbox{]} \char`\"{}}
+
+
+
+Definition at line 63 of file Unit\+Test.\+mqh.
+
+\mbox{\Hypertarget{_unit_test_8mqh_abec0187655f13dec59b96cde105e5bc1}\label{_unit_test_8mqh_abec0187655f13dec59b96cde105e5bc1}} 
+\index{Unit\+Test.\+mqh@{Unit\+Test.\+mqh}!U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+T\+E\+S\+T\+C\+A\+SE@{U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+T\+E\+S\+T\+C\+A\+SE}}
+\index{U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+T\+E\+S\+T\+C\+A\+SE@{U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+T\+E\+S\+T\+C\+A\+SE}!Unit\+Test.\+mqh@{Unit\+Test.\+mqh}}
+\subsubsection{\texorpdfstring{U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+T\+E\+S\+T\+C\+A\+SE}{UT\_SPACE\_TESTCASE}}
+{\footnotesize\ttfamily \#define U\+T\+\_\+\+S\+P\+A\+C\+E\+\_\+\+T\+E\+S\+T\+C\+A\+SE~\char`\"{}  \char`\"{}}
+
+
+
+Definition at line 62 of file Unit\+Test.\+mqh.
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_unit_test_8mqh_a846b4d0b246628bc40f57371459bdf2f}\label{_unit_test_8mqh_a846b4d0b246628bc40f57371459bdf2f}} 
+\index{Unit\+Test.\+mqh@{Unit\+Test.\+mqh}!bool\+To\+String@{bool\+To\+String}}
+\index{bool\+To\+String@{bool\+To\+String}!Unit\+Test.\+mqh@{Unit\+Test.\+mqh}}
+\subsubsection{\texorpdfstring{bool\+To\+String()}{boolToString()}}
+{\footnotesize\ttfamily string bool\+To\+String (\begin{DoxyParamCaption}\item[{bool}]{b }\end{DoxyParamCaption})}
+
+
+
+Definition at line 826 of file Unit\+Test.\+mqh.
+
+\mbox{\Hypertarget{_unit_test_8mqh_a560d9b8bdbe896abd079b6c9d7bd107f}\label{_unit_test_8mqh_a560d9b8bdbe896abd079b6c9d7bd107f}} 
+\index{Unit\+Test.\+mqh@{Unit\+Test.\+mqh}!get\+O\+K\+Fail@{get\+O\+K\+Fail}}
+\index{get\+O\+K\+Fail@{get\+O\+K\+Fail}!Unit\+Test.\+mqh@{Unit\+Test.\+mqh}}
+\subsubsection{\texorpdfstring{get\+O\+K\+Fail()}{getOKFail()}}
+{\footnotesize\ttfamily string get\+O\+K\+Fail (\begin{DoxyParamCaption}\item[{bool}]{ok }\end{DoxyParamCaption})}
+
+
+
+Definition at line 290 of file Unit\+Test.\+mqh.
+
+\mbox{\Hypertarget{_unit_test_8mqh_a9fbaaa20ba4e1624e348f7ab5109ecbf}\label{_unit_test_8mqh_a9fbaaa20ba4e1624e348f7ab5109ecbf}} 
+\index{Unit\+Test.\+mqh@{Unit\+Test.\+mqh}!U\+T\+\_\+\+On\+Deinit@{U\+T\+\_\+\+On\+Deinit}}
+\index{U\+T\+\_\+\+On\+Deinit@{U\+T\+\_\+\+On\+Deinit}!Unit\+Test.\+mqh@{Unit\+Test.\+mqh}}
+\subsubsection{\texorpdfstring{U\+T\+\_\+\+On\+Deinit()}{UT\_OnDeinit()}}
+{\footnotesize\ttfamily void U\+T\+\_\+\+On\+Deinit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 49 of file Unit\+Test.\+mqh.
+
+\mbox{\Hypertarget{_unit_test_8mqh_a9cdc57544d91884fab6f627b3394326f}\label{_unit_test_8mqh_a9cdc57544d91884fab6f627b3394326f}} 
+\index{Unit\+Test.\+mqh@{Unit\+Test.\+mqh}!U\+T\+\_\+\+On\+Init@{U\+T\+\_\+\+On\+Init}}
+\index{U\+T\+\_\+\+On\+Init@{U\+T\+\_\+\+On\+Init}!Unit\+Test.\+mqh@{Unit\+Test.\+mqh}}
+\subsubsection{\texorpdfstring{U\+T\+\_\+\+On\+Init()}{UT\_OnInit()}}
+{\footnotesize\ttfamily void U\+T\+\_\+\+On\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 23 of file Unit\+Test.\+mqh.
+
+\mbox{\Hypertarget{_unit_test_8mqh_afcdc18c227067029c1bb10f935bdb21c}\label{_unit_test_8mqh_afcdc18c227067029c1bb10f935bdb21c}} 
+\index{Unit\+Test.\+mqh@{Unit\+Test.\+mqh}!U\+T\+\_\+\+On\+Tick@{U\+T\+\_\+\+On\+Tick}}
+\index{U\+T\+\_\+\+On\+Tick@{U\+T\+\_\+\+On\+Tick}!Unit\+Test.\+mqh@{Unit\+Test.\+mqh}}
+\subsubsection{\texorpdfstring{U\+T\+\_\+\+On\+Tick()}{UT\_OnTick()}}
+{\footnotesize\ttfamily void U\+T\+\_\+\+On\+Tick (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 55 of file Unit\+Test.\+mqh.
+
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{_unit_test_8mqh_a5e34117a894ec401dfa22c9ac4dd2bab}\label{_unit_test_8mqh_a5e34117a894ec401dfa22c9ac4dd2bab}} 
+\index{Unit\+Test.\+mqh@{Unit\+Test.\+mqh}!g\+\_\+unit\+Test@{g\+\_\+unit\+Test}}
+\index{g\+\_\+unit\+Test@{g\+\_\+unit\+Test}!Unit\+Test.\+mqh@{Unit\+Test.\+mqh}}
+\subsubsection{\texorpdfstring{g\+\_\+unit\+Test}{g\_unitTest}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_unit_test}{Unit\+Test}}$\ast$ g\+\_\+unit\+Test}
+
+
+
+Definition at line 18 of file Unit\+Test.\+mqh.
+
+\mbox{\Hypertarget{_unit_test_8mqh_ac4c2170c0847569eb60570a7d2376a50}\label{_unit_test_8mqh_ac4c2170c0847569eb60570a7d2376a50}} 
+\index{Unit\+Test.\+mqh@{Unit\+Test.\+mqh}!g\+\_\+unit\+Test\+All\+Tests@{g\+\_\+unit\+Test\+All\+Tests}}
+\index{g\+\_\+unit\+Test\+All\+Tests@{g\+\_\+unit\+Test\+All\+Tests}!Unit\+Test.\+mqh@{Unit\+Test.\+mqh}}
+\subsubsection{\texorpdfstring{g\+\_\+unit\+Test\+All\+Tests}{g\_unitTestAllTests}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_unit_test_all_tests}{Unit\+Test\+All\+Tests}}$\ast$ g\+\_\+unit\+Test\+All\+Tests}
+
+
+
+Definition at line 21 of file Unit\+Test.\+mqh.
+

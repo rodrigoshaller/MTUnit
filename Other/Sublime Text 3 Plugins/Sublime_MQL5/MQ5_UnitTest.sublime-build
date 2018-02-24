@@ -1,0 +1,14 @@
+{
+  "selector": "source.mq5",
+  "cmd": ["$packages\\User\\sublime_mql5\\buildMQL5_UnitTest.bat", "$file_path", "$file_base_name", "$file_extension"],
+  "file_regex": "^.*(^.*)\\((\\d*),(\\d*)\\)\\s*:\\s*(.*)",
+  "line_regex": "^.*\\((\\d*),(\\d*)\\)\\s*:\\s*(.*)",
+  "variants": [
+    { "name": "Syntax Check",
+      "cmd": ["$packages\\User\\sublime_mql5\\buildMQL5_UnitTest.bat", "$file_path", "$file_base_name", "$file_extension", "/s"]
+    }
+  ],
+  // Recognize ANSI colors in the output
+  "target": "ansi_color_build",
+  "syntax": "Packages/ANSIescape/ANSI.tmLanguage"
+}

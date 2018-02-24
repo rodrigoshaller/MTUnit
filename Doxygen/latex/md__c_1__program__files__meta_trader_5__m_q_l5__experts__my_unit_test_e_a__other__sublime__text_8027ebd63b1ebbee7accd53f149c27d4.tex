@@ -1,0 +1,56 @@
+Sublime Text package for M\+Q\+L5. ~\newline
+Build, check, syntax highlight, auto-\/complete and snippets to accelerate your development.
+
+
+
+\subsection*{Installation }
+
+Make sure that you have Meta\+Trader5 installed. ~\newline
+ \paragraph*{Using Package Control}
+
+If you already have \href{http://wbond.net/sublime_packages/package_control/}{\tt Package Control} installed in Sublime Text\+:
+
+
+\begin{DoxyItemize}
+\item Select \char`\"{}\+Install Package\char`\"{} from the Command Palette\+: {\ttfamily Ctrl+\+Shift+P} on Windows and Linux or {\ttfamily ⇧⌘P} on OS X)
+\item Search for \char`\"{}$\ast$$\ast$mql5$\ast$$\ast$\char`\"{} and press {\ttfamily enter}.
+\end{DoxyItemize}
+
+\paragraph*{Manual Installation}
+
+Go to {\ttfamily Preferences -\/$>$ Browse Packages -\/$>$ User}, and then either download and unzip this plugin into that directory, or\+:
+
+
+\begin{DoxyCode}
+git clone https://github.com/rodrigopandini/sublime\_mql5.git "sublime\_mql5"
+\end{DoxyCode}
+
+
+\subsection*{Configuration }
+
+Configure the {\ttfamily build\+M\+Q\+L5.\+bat} file to point to the correct location of {\ttfamily metaeditor64.\+exe} program and include path. 
+\begin{DoxyCode}
+...
+set metaeditor="C:\(\backslash\)Program Files\(\backslash\)MetaTrader 5\(\backslash\)metaeditor64.exe"
+set include\_path="C:\(\backslash\)Users\(\backslash\)User\(\backslash\)AppData\(\backslash\)Roaming\(\backslash\)MetaQuotes\(\backslash\)Terminal\(\backslash\)XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\(\backslash\)MQL5"
+...
+\end{DoxyCode}
+
+
+\subsection*{Use }
+
+{\bfseries Compile or Syntax Check} ~\newline
+{\ttfamily Ctrl+B} or {\ttfamily F7} to compile and build your project. ~\newline
+{\ttfamily Ctrl+\+Shift+B} and select \char`\"{}\+Syntax Check\char`\"{} to check the syntax in your project without compilation. ~\newline
+This will run the Meta\+Editor in command-\/line mode and display the results in the Sublime Text console. ~\newline
+When result data is captured, you can navigate to results in your project’s files with {\ttfamily F4} and {\ttfamily Shift+\+F4}. If available, the captured error message will be displayed in the status bar.
+
+{\bfseries Syntax Highlight} ~\newline
+Sublime Text will highlight your {\ttfamily .mq5} and {\ttfamily .mqh} files in a convenient way. Since M\+Q\+L5 and C/\+C++ are \char`\"{}sisters\char`\"{} languages, the highlight is very similar to C/\+C++.
+
+{\bfseries Auto-\/\+Complete and Snippets} ~\newline
+Start typing your code and Sublime Text will display the auto-\/complete options to accelerate your production. There is a bunch of common and prepocessor snippets, but you can create your own.
+
+\subsection*{License }
+
+M\+IT License. See the {\ttfamily L\+I\+C\+E\+N\+SE} file. 

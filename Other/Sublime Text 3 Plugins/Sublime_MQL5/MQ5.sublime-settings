@@ -1,0 +1,4 @@
+{
+    // This file ensures that MQ5 gets priority for .mqh files
+    "extensions": ["mqh"]
+}

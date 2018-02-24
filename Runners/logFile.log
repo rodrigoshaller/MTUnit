@@ -1,0 +1,119 @@
+23:01:04.025	Startup	MetaTester 5 x64 build 1755 (18 Jan 2018)
+23:01:04.030	Server	MetaTester 5 started on 127.0.0.1:3000
+23:01:04.033	Startup	initialization finished
+23:01:04.040	127.0.0.1	login (build 1755)
+23:01:04.049	Network	38520 bytes of account info loaded
+23:01:04.049	Network	1482 bytes of tester parameters loaded
+23:01:04.049	Network	3260 bytes of input parameters loaded
+23:01:04.049	Network	425 bytes of symbols list loaded
+23:01:04.050	Tester	expert file added: Experts\MyUnitTestEA\Experts\MyUnitTestEA.ex5. 66257 bytes loaded
+23:01:04.052	Tester	initial deposit 100000.00 USD, leverage 1:100
+23:01:04.054	Tester	successfully initialized
+23:01:04.054	Network	66 Kb of total initialization data received
+23:01:04.054	Tester	Intel Core i7-4500U  @ 1.80GHz, 16272 MB
+23:01:04.104	Symbols	AUDCAD.m: symbol to be synchronized
+23:01:04.105	Symbols	AUDCAD.m: symbol synchronized, 3544 bytes of symbol info received
+23:01:04.110	History	AUDCAD.m: load 31 bytes of history data to synchronize in 0:00:00.000
+23:01:04.110	History	AUDCAD.m: history synchronized from 2012.01.01 to 2018.02.01
+23:01:04.275	History	AUDCAD.m,M1: history cache allocated for 407314 bars and contains 370189 bars from 2017.01.02 10:00 to 2017.12.29 23:58
+23:01:04.301	History	AUDCAD.m,M1: history begins from 2017.01.02 10:00
+23:01:04.304	Tester	AUDCAD.m,M1 (RoboForex-MetaTrader 5): 1 minutes OHLC ticks generating
+23:01:04.304	Tester	AUDCAD.m,M1: testing of Experts\MyUnitTestEA\Experts\MyUnitTestEA.ex5 from 2018.01.01 00:00 to 2018.02.01 00:00 started with inputs:
+23:01:04.304	Tester	  g_unitTesting=true
+23:01:04.304	Tester	  g_unitTestingOnInit=true
+23:01:04.304	Tester	  g_unitTestingOnLoop=false
+23:01:04.304	Tester	  g_unitTestingOnTick=false
+23:01:04.304	Tester	  g_alertWhenFailed=true
+23:01:04.304	Tester	  g_loopMS=500
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   Running Tests
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   ================================================================================================
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   Test Suite: MyBasicTestSuite
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   -> Running Test Case: test_bool_assertTrue_succeed
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   [TEST] assertTrue 1 should succeed -     OK    [0m
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   [TEST] assertTrue 2 should succeed -     OK    [0m
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   RESULT:     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%) - Elapsed Time: 94us[0m
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   -> Running Test Case: test_bool_assertFalse_succeed
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   [TEST] assertFalse should succeed -     OK    [0m
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   RESULT:     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%) - Elapsed Time: 7us[0m
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   -> Running Test Case: test_integers_int_assertEquals_succeed
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   [TEST] assertEquals with 2 integers should succeed -     OK    [0m
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   [TEST] assertEquals overflow of an integer should succeed -     OK    [0m
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   RESULT:     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%) - Elapsed Time: 11us[0m
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   -> Running Test Case: test_integers_long_assertEquals_succeed
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   [TEST] assertEquals with 2 longs should succeed -     OK    [0m
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   [TEST] assertEquals overflow of a long should succeed -     OK    [0m
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   RESULT:     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%) - Elapsed Time: 9us[0m
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   -> Running Test Case: test_float_assertEquals_succeed
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   [TEST] assertEquals with 2 floats should succeed -     OK    [0m
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   RESULT:     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%) - Elapsed Time: 6us[0m
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   -> Running Test Case: test_double_assertEquals_succeed
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   [TEST] assertEquals with 2 doubles should succeed -     OK    [0m
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   RESULT:     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%) - Elapsed Time: 6us[0m
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   -> Running Test Case: test_string_assertEquals_succeed
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   [TEST] assertEquals with 2 strings should succeed -     OK    [0m
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   RESULT:     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%) - Elapsed Time: 6us[0m
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   ------------------------------------------------------------------------------------------------
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   MyBasicTestSuite Summary:
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   Elapsed Time: 202us
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   Asserts: Total: 10, Success: 10 (100.00%), Failure: 0 (0.00%)
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   Tests:   Total: 7, Success: 7 (100.00%), Failure: 0 (0.00%) - Final Result:     OK    [0m
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   ------------------------------------------------------------------------------------------------
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   Test Suite: MyClassTestingTestSuite
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   -> Running Test Case: test_publicMethods
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   [TEST] Test a Public Method using a class private object -     OK    [0m
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   [TEST] Test a Public Method using a new object -     OK    [0m
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   RESULT:     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%) - Elapsed Time: 11us[0m
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   -> Running Test Case: test_staticMethods
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   [TEST] Test a Static Method using a direct call -     OK    [0m
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   RESULT:     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%) - Elapsed Time: 7us[0m
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   -> Running Test Case: test_privateMethods
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   [TEST] Test a Private Method -     OK    [0m
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   RESULT:     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%) - Elapsed Time: 5us[0m
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   ------------------------------------------------------------------------------------------------
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   MyClassTestingTestSuite Summary:
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   Elapsed Time: 51us
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   Asserts: Total: 4, Success: 4 (100.00%), Failure: 0 (0.00%)
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   Tests:   Total: 3, Success: 3 (100.00%), Failure: 0 (0.00%) - Final Result:     OK    [0m
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   ------------------------------------------------------------------------------------------------
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   Test Suite: MyGlobalScopeTestSuite
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   -> Running Test Case: test_GetMA_shoudReturnSMA
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   [TEST] MA must be SMA and 3 bars shifted -     OK    [0m
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   RESULT:     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%) - Elapsed Time: 41us[0m
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   -> Running Test Case: test_GetMAArray_shoudReturnCoupleOfSMA
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   [TEST] MA array must contains a couple of SMA -     OK    [0m
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   RESULT:     OK     - Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%) - Elapsed Time: 31us[0m
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   ------------------------------------------------------------------------------------------------
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   MyGlobalScopeTestSuite Summary:
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   Elapsed Time: 94us
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   Asserts: Total: 3, Success: 3 (100.00%), Failure: 0 (0.00%)
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   Tests:   Total: 2, Success: 2 (100.00%), Failure: 0 (0.00%) - Final Result:     OK    [0m
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   ------------------------------------------------------------------------------------------------
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   Test Suite: MyInheritedTestSuite
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   -> Running Test Case: test_publicInheritedMethods
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   [TEST] Test a Public Inherited Method -     OK    [0m
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   RESULT:     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%) - Elapsed Time: 6us[0m
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   -> Running Test Case: test_protectedInheritedMethods
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   [TEST] Test a Protected Inherited Method -     OK    [0m
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   RESULT:     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%) - Elapsed Time: 6us[0m
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   -> Running Test Case: test_privateInheritedMethods
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   [TEST] Test a Private Inherited Method -     OK    [0m
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   RESULT:     OK     - Total: 1, Success: 1 (100.00%), Failure: 0 (0.00%) - Elapsed Time: 6us[0m
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   ------------------------------------------------------------------------------------------------
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   MyInheritedTestSuite Summary:
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   Elapsed Time: 46us
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   Asserts: Total: 3, Success: 3 (100.00%), Failure: 0 (0.00%)
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   Tests:   Total: 3, Success: 3 (100.00%), Failure: 0 (0.00%) - Final Result:     OK    [0m
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   ------------------------------------------------------------------------------------------------
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   ================================================================================================
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   Overall Summary:
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   Total Elapsed Time: 493us
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   Asserts: Total: 20, Success: 20 (100.00%), Failure: 0 (0.00%)
+[32m23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   Tests:   Total: 15, Success: 15 (100.00%), Failure: 0 (0.00%) - Final Result:     OK    [0m
+23:01:04.333	MyUnitTestEA (AUDCAD.m,M1)	2018.01.01 00:00:00   ================================================================================================
+23:01:04.397	Tester	final balance 100000.00 USD
+23:01:04.400	Tester	AUDCAD.m,M1: 122844 ticks, 30966 bars generated. Test passed in 0:00:00.343 (including ticks preprocessing 0:00:00.016).
+23:01:04.400	Tester	288 Mb memory used including 23 Mb of history data, 64 Mb of tick data
+23:01:04.400	Tester	log file "C:\Program Files\MetaTrader 5\Tester\Agent-127.0.0.1-3000\logs\20180224.log" written
+23:01:04.545	127.0.0.1	login (build 1755)
+23:01:04.552	127.0.0.1	MetaTester 5 forced to close
+23:01:04.842	Server	MetaTester 5 stopped

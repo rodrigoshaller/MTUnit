@@ -1,0 +1,106 @@
+\hypertarget{_my_unit_test_e_a_8mq5}{}\section{My\+Unit\+Test\+E\+A.\+mq5 File Reference}
+\label{_my_unit_test_e_a_8mq5}\index{My\+Unit\+Test\+E\+A.\+mq5@{My\+Unit\+Test\+E\+A.\+mq5}}
+
+
+This file represents an Expert Advisor capable of running our Test Unit. It also demonstrates how to use it properly.  
+
+
+{\ttfamily \#include \char`\"{}../\+Include/\+M\+T\+Unit.\+mqh\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_my_unit_test_e_a_8mq5_a53dc1cd6aabfadddd579c1b1010e7d52}{On\+Init}} ()
+\begin{DoxyCompactList}\small\item\em Expert On\+Init function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_my_unit_test_e_a_8mq5_a3f95d0fb3935a6dd3f45618a48fea55b}{On\+Deinit}} (const int reason)
+\begin{DoxyCompactList}\small\item\em Expert On\+Deinit function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_my_unit_test_e_a_8mq5_a94383cb2b73d2bc8d5536e293232374f}{On\+Tick}} ()
+\begin{DoxyCompactList}\small\item\em Expert tick function {\itshape D\+I\+S\+A\+B\+L\+ED} \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{_my_unit_test_e_a_8mq5_a7b3651ef0dea162e4f2217474bf878aa}{get\+MA}} (int shift)
+\item 
+void \mbox{\hyperlink{_my_unit_test_e_a_8mq5_a2522426d9de7bcd6c5348e9e2835b36d}{get\+M\+A\+Array}} (const int \&shifts\mbox{[}$\,$\mbox{]}, double \&mas\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This file represents an Expert Advisor capable of running our Test Unit. It also demonstrates how to use it properly. 
+
+\begin{DoxyAuthor}{Author}
+Rodrigo Haller 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+09/02/2018 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_my_unit_test_e_a_8mq5_a7b3651ef0dea162e4f2217474bf878aa}\label{_my_unit_test_e_a_8mq5_a7b3651ef0dea162e4f2217474bf878aa}} 
+\index{My\+Unit\+Test\+E\+A.\+mq5@{My\+Unit\+Test\+E\+A.\+mq5}!get\+MA@{get\+MA}}
+\index{get\+MA@{get\+MA}!My\+Unit\+Test\+E\+A.\+mq5@{My\+Unit\+Test\+E\+A.\+mq5}}
+\subsubsection{\texorpdfstring{get\+M\+A()}{getMA()}}
+{\footnotesize\ttfamily double get\+MA (\begin{DoxyParamCaption}\item[{int}]{shift }\end{DoxyParamCaption})}
+
+
+
+Definition at line 54 of file My\+Unit\+Test\+E\+A.\+mq5.
+
+\mbox{\Hypertarget{_my_unit_test_e_a_8mq5_a2522426d9de7bcd6c5348e9e2835b36d}\label{_my_unit_test_e_a_8mq5_a2522426d9de7bcd6c5348e9e2835b36d}} 
+\index{My\+Unit\+Test\+E\+A.\+mq5@{My\+Unit\+Test\+E\+A.\+mq5}!get\+M\+A\+Array@{get\+M\+A\+Array}}
+\index{get\+M\+A\+Array@{get\+M\+A\+Array}!My\+Unit\+Test\+E\+A.\+mq5@{My\+Unit\+Test\+E\+A.\+mq5}}
+\subsubsection{\texorpdfstring{get\+M\+A\+Array()}{getMAArray()}}
+{\footnotesize\ttfamily void get\+M\+A\+Array (\begin{DoxyParamCaption}\item[{const int \&}]{shifts\mbox{[}$\,$\mbox{]},  }\item[{double \&}]{mas\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Definition at line 59 of file My\+Unit\+Test\+E\+A.\+mq5.
+
+\mbox{\Hypertarget{_my_unit_test_e_a_8mq5_a3f95d0fb3935a6dd3f45618a48fea55b}\label{_my_unit_test_e_a_8mq5_a3f95d0fb3935a6dd3f45618a48fea55b}} 
+\index{My\+Unit\+Test\+E\+A.\+mq5@{My\+Unit\+Test\+E\+A.\+mq5}!On\+Deinit@{On\+Deinit}}
+\index{On\+Deinit@{On\+Deinit}!My\+Unit\+Test\+E\+A.\+mq5@{My\+Unit\+Test\+E\+A.\+mq5}}
+\subsubsection{\texorpdfstring{On\+Deinit()}{OnDeinit()}}
+{\footnotesize\ttfamily void On\+Deinit (\begin{DoxyParamCaption}\item[{const int}]{reason }\end{DoxyParamCaption})}
+
+
+
+Expert On\+Deinit function. 
+
+Call U\+T\+\_\+\+On\+De\+Init() in your Expert\textquotesingle{}s \mbox{\hyperlink{_my_unit_test_e_a_8mq5_a3f95d0fb3935a6dd3f45618a48fea55b}{On\+Deinit()}} method to delete the Unit\+Test objects. 
+
+Definition at line 32 of file My\+Unit\+Test\+E\+A.\+mq5.
+
+\mbox{\Hypertarget{_my_unit_test_e_a_8mq5_a53dc1cd6aabfadddd579c1b1010e7d52}\label{_my_unit_test_e_a_8mq5_a53dc1cd6aabfadddd579c1b1010e7d52}} 
+\index{My\+Unit\+Test\+E\+A.\+mq5@{My\+Unit\+Test\+E\+A.\+mq5}!On\+Init@{On\+Init}}
+\index{On\+Init@{On\+Init}!My\+Unit\+Test\+E\+A.\+mq5@{My\+Unit\+Test\+E\+A.\+mq5}}
+\subsubsection{\texorpdfstring{On\+Init()}{OnInit()}}
+{\footnotesize\ttfamily int On\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Expert On\+Init function. 
+
+Call \mbox{\hyperlink{_m_t_unit_8mqh_a9cdc57544d91884fab6f627b3394326f}{U\+T\+\_\+\+On\+Init()}} in your Expert\textquotesingle{}s \mbox{\hyperlink{_my_unit_test_e_a_8mq5_a53dc1cd6aabfadddd579c1b1010e7d52}{On\+Init()}} method to run the tests. \begin{DoxyReturn}{Returns}
+Expert return status 
+\end{DoxyReturn}
+
+
+Definition at line 21 of file My\+Unit\+Test\+E\+A.\+mq5.
+
+\mbox{\Hypertarget{_my_unit_test_e_a_8mq5_a94383cb2b73d2bc8d5536e293232374f}\label{_my_unit_test_e_a_8mq5_a94383cb2b73d2bc8d5536e293232374f}} 
+\index{My\+Unit\+Test\+E\+A.\+mq5@{My\+Unit\+Test\+E\+A.\+mq5}!On\+Tick@{On\+Tick}}
+\index{On\+Tick@{On\+Tick}!My\+Unit\+Test\+E\+A.\+mq5@{My\+Unit\+Test\+E\+A.\+mq5}}
+\subsubsection{\texorpdfstring{On\+Tick()}{OnTick()}}
+{\footnotesize\ttfamily void On\+Tick (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Expert tick function {\itshape D\+I\+S\+A\+B\+L\+ED} 
+
+Not commonly used, but if you have tests that should run on each Tick, call \mbox{\hyperlink{_m_t_unit_8mqh_afcdc18c227067029c1bb10f935bdb21c}{U\+T\+\_\+\+On\+Tick()}}. \begin{DoxyWarning}{Warning}
+Do not forget to set g\+\_\+unit\+Testing\+On\+Tick to true 
+\end{DoxyWarning}
+\begin{DoxyNote}{Note}
+This option is disabled for now, since I don\textquotesingle{}t see any use for this. Unit\+Tests should not rely on random data, that\textquotesingle{}s why mocking objects exist. So I don\textquotesingle{}t see the point of testing during ticks. 
+\end{DoxyNote}
+
+
+Definition at line 47 of file My\+Unit\+Test\+E\+A.\+mq5.
+
