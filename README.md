@@ -30,7 +30,7 @@ But this is a lot of manual work and it is enough for many people quit unit test
 
 There comes the second tool...
 
-### 2º Tool: MTUnitTestsCompiler
+### 2nd Tool: MTUnitTestsCompiler
 This tool goes through all files in the Test folder and generates an output file (MTUnitAllTests.mqh) containing all declarations and initializations for all tests. This unique file is used by the Unit Test and you don't even need to touch it. The only thing you need to do is write your tests inside the Test folder.
 
 But... Isn't it frustrating to have to execute this tool every time I write or modify a new test??? If you are questioning yourself about this, welcome to the club of the lazy ones! (Nice to meet you, I'm the president!).
@@ -65,7 +65,7 @@ This plugin executes a .bat file during the build phase, this .bat file is respo
 In order to run the tests, it is necessary to execute the MetaTerminal. MetaTerminal needs to know the simulation parameters we want to use and to do so, it asks for a config file containing such parameters. One of these parameters is the "Expert", which is the path to the Expert Advisor we are testing.
 In order to update this Expert param, this config file should be updated with whatever Expert you are willing to test... And you don't want to bother in doing something like that, do you?
 
-### 3º Tool: MTUnitEALinker
+### 3rd Tool: MTUnitEALinker
 So I present you the MTUnitEALinker (good name, right? I'm very creative, I know that).
 
 The only thing it does is update that param. Yes, simple as pie, but it was needed.
@@ -123,7 +123,7 @@ There's also another plugin called DoxyDoc and can be downloaded directly from t
 ___
 
 The final result can be seen below:
-![preview](imgs/preview.gif)
+![preview](Imgs/preview.gif)
 
 Fun Fact: It took me more time to write this text than doing all of this stuff.
 
